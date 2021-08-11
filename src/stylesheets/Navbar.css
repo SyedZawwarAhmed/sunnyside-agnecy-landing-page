@@ -2,7 +2,7 @@
     background-color: lightblue;
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .logo {
@@ -29,6 +29,12 @@ a {
     font-family: 'Fraunces', serif;
     font-weight: 900;
     border-radius: 2em;
+    transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+    color: var(--white);
+    background-color: var(--footer)
 }
 
 .hamburger {
